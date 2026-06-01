@@ -17,7 +17,7 @@ jobs:
       url: http://helpful-salt.surge.sh
     steps:
     - name: Download the Build Artifact
-      uses: actions/download-artifact@v7.0.1
+      uses: actions/download-artifact@v3.1.0
       with:
         name: build
     - name: deploy to surge
